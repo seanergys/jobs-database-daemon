@@ -1,0 +1,3 @@
+[submodule "third_party/seanerbus-cpp"]
+	path = third_party/seanerbus-cpp
+	url = git@gitlab.seanergys.fz-juelich.de:software/seanerbus-cpp.git
