@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2026 SEANERGYS Partners <https://seanergys.eu>
-# SPDX-License-Identifier: LGPL-3.0-only
+# SPDX-License-Identifier: Apache-2.0
 
 cmake_minimum_required(VERSION 3.20)
 project(flux_job_pubsub_v2 LANGUAGES C CXX)
