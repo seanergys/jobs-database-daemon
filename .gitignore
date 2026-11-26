@@ -1,0 +1,33 @@
+# CMake build output
+/build/
+/build-*/
+/cmake-build-*/
+
+# Compiled artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Generated Cap'n Proto C++ files
+*.capnp.c++
+*.capnp.h
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
