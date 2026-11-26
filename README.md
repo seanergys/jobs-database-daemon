@@ -87,7 +87,7 @@ docker run -d \
   --env 'SEANERBUS_PUBSUB_ENDPOINT=demobus://localhost:5398' \
   --env 'SEANERBUS_REQRES_ENDPOINT=demobus://localhost:5398' \
   hpc-v2-consumer-build:debian13 \
-  ./build-v2-consumer/flux_lifecycle_daemon_v2
+  ./build-v2-consumer/jobs-database-daemon
 
 
 

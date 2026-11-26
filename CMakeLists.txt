@@ -56,3 +56,9 @@ add_executable(flux_lifecycle_daemon_v2
 )
 target_include_directories(flux_lifecycle_daemon_v2 PRIVATE include)
 target_link_libraries(flux_lifecycle_daemon_v2 PRIVATE hpc_job_database_v2 seanerbus CapnProto::capnp CapnProto::kj atomic)
+
+set_target_properties(flux_lifecycle_daemon_v2 PROPERTIES OUTPUT_NAME jobs-database-daemon)
+
+include(GNUInstallDirs)
+install(TARGETS flux_lifecycle_daemon_v2 RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+install(FILES sql/001_schema.sql DESTINATION ${CMAKE_INSTALL_DATADIR}/jobs-database-daemon)
